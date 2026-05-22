@@ -1,9 +1,9 @@
 
-         /\      Grafana   /‾‾/  
-    /\  /  \     |\  __   /  /   
-   /  \/    \    | |/ /  /   ‾‾\ 
+         /\      Grafana   /‾‾/
+    /\  /  \     |\  __   /  /
+   /  \/    \    | |/ /  /   ‾‾\
   /          \   |   (  |  (‾)  |
- / __________ \  |_|\_\  \_____/ 
+ / __________ \  |_|\_\  \_____/
 
      execution: local
         script: k6/mixed-chat-test.js
@@ -50,7 +50,7 @@ running (12.0s), 1/1 VUs, 8 complete and 0 interrupted iterations
 mixed_chat   [  98% ] 1/1 VUs  11.8s/12.0s
 
 
-  █ THRESHOLDS 
+  █ THRESHOLDS
 
     ack_success_rate
     ✓ 'rate>0.80' rate=100.00%
@@ -68,7 +68,7 @@ mixed_chat   [  98% ] 1/1 VUs  11.8s/12.0s
     ✓ 'rate>0.80' rate=100.00%
 
 
-  █ TOTAL RESULTS 
+  █ TOTAL RESULTS
 
     checks_total.......: 37      3.00996/s
     checks_succeeded...: 100.00% 37 out of 37
@@ -84,21 +84,21 @@ mixed_chat   [  98% ] 1/1 VUs  11.8s/12.0s
     ack_success_rate...............: 100.00% 9 out of 9
     acks_received..................: 9       0.732153/s
     delivery_success_rate..........: 100.00% 9 out of 9
-    message_send_ack_latency.......: avg=7ms      min=6ms      med=7ms      max=8ms      p(90)=8ms      p(95)=8ms     
+    message_send_ack_latency.......: avg=7ms      min=6ms      med=7ms      max=8ms      p(90)=8ms      p(95)=8ms
     messages_received..............: 9       0.732153/s
     messages_sent..................: 9       0.732153/s
     mixed_error_rate...............: 0.00%   0 out of 36
     nack_rate......................: 0.00%   0 out of 9
-    send_to_receive_latency........: avg=7.11ms   min=6ms      med=7ms      max=8ms      p(90)=8ms      p(95)=8ms     
+    send_to_receive_latency........: avg=7.11ms   min=6ms      med=7ms      max=8ms      p(90)=8ms      p(95)=8ms
 
     HTTP
-    http_req_duration..............: avg=12ms     min=2.13ms   med=5.03ms   max=78.45ms  p(90)=10.77ms  p(95)=76.01ms 
-      { expected_response:true }...: avg=12ms     min=2.13ms   med=5.03ms   max=78.45ms  p(90)=10.77ms  p(95)=76.01ms 
+    http_req_duration..............: avg=12ms     min=2.13ms   med=5.03ms   max=78.45ms  p(90)=10.77ms  p(95)=76.01ms
+      { expected_response:true }...: avg=12ms     min=2.13ms   med=5.03ms   max=78.45ms  p(90)=10.77ms  p(95)=76.01ms
     http_req_failed................: 0.00%   0 out of 31
     http_reqs......................: 31      2.521859/s
 
     EXECUTION
-    iteration_duration.............: avg=1.22s    min=1.22s    med=1.22s    max=1.23s    p(90)=1.23s    p(95)=1.23s   
+    iteration_duration.............: avg=1.22s    min=1.22s    med=1.22s    max=1.23s    p(90)=1.23s    p(95)=1.23s
     iterations.....................: 9       0.732153/s
     vus............................: 1       min=0       max=1
     vus_max........................: 1       min=1       max=1
@@ -108,7 +108,7 @@ mixed_chat   [  98% ] 1/1 VUs  11.8s/12.0s
     data_sent......................: 19 kB   1.6 kB/s
 
     WEBSOCKET
-    ws_connecting..................: avg=1.56ms   min=950.87µs med=1.25ms   max=2.59ms   p(90)=2.53ms   p(95)=2.56ms  
+    ws_connecting..................: avg=1.56ms   min=950.87µs med=1.25ms   max=2.59ms   p(90)=2.53ms   p(95)=2.56ms
     ws_connection_success_rate.....: 100.00% 9 out of 9
     ws_msgs_received...............: 18      1.464305/s
     ws_msgs_sent...................: 45      3.660763/s
